@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #f2f2f2;
+  background: #f5eee6;
 }
 
 header {
@@ -70,7 +70,7 @@ header a, footer a {
 }
 
 header a:hover, footer a:hover {
-  color: #ddd;
+  color: rgb(167, 26, 26);
 }
 
 .homepage {
@@ -104,7 +104,7 @@ header a:hover, footer a:hover {
 .homepage .content h1 {
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .homepage .content .text {
@@ -123,8 +123,8 @@ header a:hover, footer a:hover {
   margin: 0 10px;
   padding: 10px 30px;
   border-radius: 5px;
-  background: #fff;
-  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.174);
+  border: 2px solid rgba(255, 255, 255, 0.529);
   transition: 0.4s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   text-decoration: none;
@@ -132,7 +132,7 @@ header a:hover, footer a:hover {
 
 .content a:hover {
   color: #fff;
-  background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.338);
 }
 
 section {
@@ -182,7 +182,7 @@ section.about {
 }
 
 section .cards .card {
-  background: #fff;
+  background: rgb(222, 199, 173);
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
